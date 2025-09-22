@@ -1,0 +1,28 @@
+1. Test Case: Verification of Notification and Display of the "Breakfast Package" Order from External Communication
+
+Goal:
+To verify that after creating an order through an external system, a notification is sent and the order is correctly displayed in the Checkpoint and Webadmin.
+
+Steps:
+1.Scan the QR code to open the order menu.
+2.In the external system, create and confirm an order for "Breakfast Package (1 pc – adult)".
+3.Check if a notification was received via e-mail.
+4.Open the notification and click on "View in Checkpoint".
+
+5.Verify that the order detail opens in Webadmin under the following sections:
+Guest actions > All
+Guest actions > Orders
+
+6.Check that the order detail includes:
+
+Name: Breakfast Package
+Quantity: 1x
+Customer's e-mail address (if provided)
+
+
+To Improve (ISSUES):
+
+A,Verify if a message is displayed when creating the order, such as:
+"In case of changes, click here" (quick fix for contacting the hotel)
+
+B, After clicking "View in Checkpoint", verify that it redirects directly to the specific order.
