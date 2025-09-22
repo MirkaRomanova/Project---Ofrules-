@@ -1,0 +1,45 @@
+Title:
+Visibility of 3 tags when editing guest profile
+
+Status:
+New
+
+Priority:
+Low
+
+Description:
+After adding the third tag, the “Save” button becomes hidden and the user cannot see the option to save changes.
+
+Created time:
+19.09.2025
+
+Platform:
+WebAdmin
+
+Created by:
+Miriama Romanová
+
+Version:
+v1.2
+
+Browser:
+Chrome Version 140.0.7339.186
+
+Operating System:
+Windows 10
+
+Steps to reproduce:
+
+1 Open guest profile edit page in WebAdmin.
+2. Add the first and second tag successfully.
+3. Add the third tag.
+4. Observe that the “Save” button is no longer visible.
+
+Expected result:
+The “Save” button should remain visible and clickable regardless of the number of tags added.
+
+Actual result:
+The “Save” button disappears after adding the third tag, preventing saving changes.
+
+Attachments:
+[Data unavailable due to sensitivity]
